@@ -1,9 +1,12 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+body{
+    font-family: "Open Sans", sans-serif;
 }
 
 /* banner section style  */
@@ -37,7 +40,6 @@
  }
  .banner-description p{
     color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
@@ -55,3 +57,74 @@
     color: white;
 }
 /* banner section style  */
+
+/* development section style */
+.development-section{
+    width: 1140px;
+    height: 1395px;
+    margin: 74px auto;
+    background: rgba(13, 19, 33, 0.02);    
+}
+.development-top {
+    margin: 48px 0;
+}
+.development-title{
+    color: #0d1321;
+font-size: 32px;
+font-weight: 800;
+text-align: center;
+padding-top: 80px;
+
+}
+.development-description{
+    color: rgb(13 19 33 / 66%);
+    font-size: 16px;
+    text-align: center;
+    margin: 25px 0;
+}
+.development-box-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.development-box{
+    width: 946px;
+    height: 336px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 48px;
+    margin-bottom: 30px;
+}
+.dev-left-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    width: 70%;
+    height: 220px;
+}
+.dev-right-box{
+    width: 30%;
+    height: 217.01px;
+}
+.dev-box-title{
+    color: rgba(13, 19, 33, 0.7);
+font-size: 24px;
+}
+.dev-box-description{
+    color: rgb(13, 19, 33);
+font-size: 17px;
+margin: 30px 0;
+font-weight: 500;
+color: rgb(13 19 33 / 66%)
+}
+button.dev-box-btn {
+    font-size: 20px;
+    background: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+/* development section style */
