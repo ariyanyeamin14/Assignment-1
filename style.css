@@ -206,3 +206,55 @@ button.dev-box-btn {
     border-radius: 10px;
 }
 /* target section style  */
+
+/* support section style  */
+.support-section{
+    
+    background-image: url(images/handshake.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 1140px;
+    height: 314px;
+    margin: 0 auto;
+    margin-top: 100px;
+    border-radius: 15px;
+    margin-bottom: 30px;
+}
+.support-content {
+    padding: 64px;
+    padding-bottom: 73px;
+    text-align: center;
+    width: 100%;
+    background: linear-gradient(#00000075, #0000006e);
+    border-radius: 15px;
+}
+.support-title{
+    color: white;
+    font-size: 32px;
+    font-weight: 800;
+    text-align: center;
+}
+p.support-description {
+    color: #dadada;
+    margin: 20px 0;
+}
+input#textarea {
+    padding: 17px 248px 14px 10px;
+    font-size: 17px;
+    border-radius: 5px;
+    border: none;
+    background: white;
+}
+input#submit {
+    padding: 14px;
+    font-size: 20px;
+    color: #3d3d3d;
+    border-radius: 5px;
+    border: none;
+    background-color: white;
+}
+.support-input {
+    margin-top: 40px;
+}
+/* support section style  */
