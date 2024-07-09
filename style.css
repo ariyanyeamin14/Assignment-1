@@ -219,7 +219,7 @@ button.dev-box-btn {
     margin: 0 auto;
     margin-top: 100px;
     border-radius: 15px;
-    margin-bottom: 30px;
+    margin-bottom: 100px;
 }
 .support-content {
     padding: 64px;
@@ -258,3 +258,23 @@ input#submit {
     margin-top: 40px;
 }
 /* support section style  */
+
+/* footer section style  */
+footer{
+    height: 100px;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.03);
+}
+.footer-container{
+    width: 1140px;
+    height: 36px;
+    margin:0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 0;
+}
+.footer-img img {
+    margin-left: 20px;
+}
+/* footer section style  */
