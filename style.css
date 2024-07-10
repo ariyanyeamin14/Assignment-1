@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
-
+/* @import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap'); */
 *{
     margin: 0;
     padding: 0;
@@ -52,6 +52,10 @@ body{
         padding: 10px;
         cursor: pointer;
 }
+.banner-btn button:hover{
+    color: black;
+    background-color: rgb(255, 255, 255);
+}
 .banner-btn button a{
     text-decoration: none;    
     color: white;
@@ -70,10 +74,10 @@ body{
 }
 .development-title{
     color: #0d1321;
-font-size: 32px;
-font-weight: 800;
-text-align: center;
-padding-top: 80px;
+    font-size: 32px;
+    font-weight: 800;
+    text-align: center;
+    padding-top: 80px;
 
 }
 .development-description{
@@ -111,18 +115,26 @@ padding-top: 80px;
 }
 .dev-box-title{
     color: rgba(13, 19, 33, 0.7);
-font-size: 24px;
+    font-size: 24px;
 }
 .dev-box-description{
     color: rgb(13, 19, 33);
-font-size: 17px;
-margin: 30px 0;
-font-weight: 500;
-color: rgb(13 19 33 / 66%)
+    font-size: 16px;
+    margin: 30px 0;
+    font-weight: 500;
+    color: rgb(13 19 33 / 66%)
 }
 button.dev-box-btn {
     font-size: 20px;
     background: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button.dev-box-btn:hover {
+    font-size: 20px;
+    color: white;
+    background-color: black;
     padding: 10px 20px;
     border-radius: 5px;
     cursor: pointer;
@@ -255,6 +267,7 @@ input#submit {
     border: none;
     background-color: white;
     margin-left: 15px;
+    cursor:pointer;
 }
 .support-input {
     margin-top: 40px;
